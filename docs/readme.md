@@ -13,7 +13,7 @@
 - root폴더에서 main.py외에 필요한 py파일들을 만들어서 특정chapter를 학습한다.
 - 학습 종료 후 아래와 같은 커맨드를 통해 학습내용을 정리한다.
     ```shell
-    ./learn.bat [책_이름] [chapter명]
+    ./learn.bat [cc(cleancode) or cpt(concept) or 그외] [하위 chapter폴더명]
     ```
   ![521dc07c-45b8-4ffa-b87b-c89efd5f6c39](https://raw.githubusercontent.com/is3js/screenshots/main/521dc07c-45b8-4ffa-b87b-c89efd5f6c39.gif)
      
