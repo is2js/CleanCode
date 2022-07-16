@@ -5,6 +5,8 @@ if "%1" == "cc" (
     SET FIRST_FOLDER=cleancode
 ) else if "%1" == "cpt" (
     SET FIRST_FOLDER=cleancode
+) else if "%1" == "sg" (
+    SET FIRST_FOLDER=seulgi_python_trick
 ) else (
     SET FIRST_FOLDER=%1
 )
