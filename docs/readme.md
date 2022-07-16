@@ -3,7 +3,12 @@
 - 교재: 파이썬 클린코드
     ![image-20220716012838378](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220716012838378.png)
 
-### 세팅
+### pycharm, pylint, black 세팅
+- 돌범 개인 블로그 참고
+   - [pycharm 세팅 및 단축키 • Feb 13, 2022](https://blog.chojaeseong.com/pycharm/settings/shortcut/2022/02/13/pycharrm_settings_shortcut.html)
+
+
+### 학습 세팅
 - learn.bat 작성한다.
 - root폴더에서 main.py외에 필요한 py파일들을 만들어서 특정chapter를 학습한다.
 - 학습 종료 후 아래와 같은 커맨드를 통해 학습내용을 정리한다.
