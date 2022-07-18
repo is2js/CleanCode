@@ -2,7 +2,7 @@ import time
 import contextlib
 
 
-# 1. 데코레이터로 class를 생성하되, contextlib.ContextDecorator를 상속해서 만든다.
+# 1. 데코레이터를 __enter__와 __exit__ 오버라이딩 class를 생성하되, contextlib.ContextDecorator를 상속해서 만든다.
 class Timer(contextlib.ContextDecorator):
 
     def __init__(self, name) -> None:
