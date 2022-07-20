@@ -28,6 +28,7 @@ if not exist ".\%FIRST_FOLDER%\%2" (
 ::root폴더에 작성한 *.py파일들을 인자로 생성된 폴더로 다 이동시킨다.
 copy .\*.py .\%CURRENT_FOLDER% /DHKYCSIL
 
+del .\*.py
 
 ::기존 Main.py 초기문장 적어 초기화
 echo def solution(): > .\main.py
