@@ -35,7 +35,7 @@ class Bag:
 
 if __name__ == '__main__':
     solution()
-    # n개의 None으로 초기화한 빈 리스트의 capacity(갯수), "사람이름", 들어온 "item"의 갯수를  필드로 가지는 객체
+    # n개의 None으로 초기화한 빈 리스트의 capacity(갯수), "사람이름", 들어온 "coord"의 갯수를  필드로 가지는 객체
     # 아이템이 들어올때마다, count = 0 -> list의 index로서 사용해서 채우고 +1
     js_bag = Bag(10, "chojaeseong")
     js_bag.add_item("음료수")
