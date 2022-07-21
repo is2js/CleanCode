@@ -1,3 +1,4 @@
+# https://blog.chojaeseong.com/python/algorithm/pycharm/decorator/2022/07/20/python_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EC%88%9C%EC%84%9C.html
 import functools
 
 def null_decorator(func):
@@ -85,4 +86,6 @@ def solution():
 
 
 if __name__ == "__main__":
+    # 업로드한 데코레이터 작성 순서 참고
+    # https://blog.chojaeseong.com/python/algorithm/pycharm/decorator/2022/07/20/python_%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%8A%94-%EC%88%9C%EC%84%9C.html
     solution()
