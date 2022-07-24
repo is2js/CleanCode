@@ -2,7 +2,7 @@ class Myclass:
     def __init__(self, attribute=None):
         self._attribute = attribute
 
-    # (1) 호출한 필드명이 string item으로 들어온다.
+    # (1) 호출한 필드명이 iterable item으로 들어온다.
     #     존재하든 안하든 일단 호출된다. -> 그다음에 getattr(item)이 호출된다.
     def __getattribute__(self, item):
         print(f"__getattribute__({item})이 호출 됨")
