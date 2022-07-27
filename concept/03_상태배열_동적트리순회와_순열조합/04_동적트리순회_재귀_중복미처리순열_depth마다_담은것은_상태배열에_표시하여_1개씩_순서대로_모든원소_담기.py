@@ -1,9 +1,5 @@
 from typing import List
 
-
-
-
-
 def permutation(arr: List, r: int) -> None:
     arr = sorted(arr)
     # 1. 0으로 초기화된, arr의 상태관리배열
