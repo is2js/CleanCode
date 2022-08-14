@@ -6,12 +6,12 @@
 
 - [참고 블로그](https://dailyheumsi.tistory.com/category/%EB%8D%94%20%EB%82%98%EC%9D%80%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EA%B0%80%20%EB%90%98%EA%B8%B0%20%EC%9C%84%ED%95%B4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%84%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%8A%A4%EB%9F%BD%EA%B2%8C)
 
-| 교재명 | Python cleancode                                             | Python Tricks                                                | in Problems                                                  |
+| 교재명 | Python cleancode                                             | Python Tricks                                                | Pythonic                                                     |
 | :----: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 이미지 | ![image-20220716012838378](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220716012838378.png) | ![image-20220717004101722](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220717004101722.png) |                                                              |
-|  폴더  | [cleancode](../cleancode)                                    | [seulgi_python_trick](../seulgi_python_trick)                | [concept](../concept)                                        |
-|        |                                                              |                                                              | Pythonic                                                     |
-| 이미지 |                                                              |                                                              | ![image-20220727190948380](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220727190948380.png) |
+| 이미지 | ![image-20220716012838378](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220716012838378.png) | ![image-20220717004101722](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220717004101722.png) | ![image-20220727190948380](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220727190948380.png) |
+|  폴더  | [cleancode](../cleancode)                                    | [seulgi_python_trick](../seulgi_python_trick)                | [pythonic](../pythonic)                                      |
+|        |                                                              |                                                              |                                                              |
+| 이미지 |                                                              |                                                              |                                                              |
 |  폴더  |                                                              |                                                              |                                                              |
 
 
@@ -49,8 +49,6 @@
 ### 학습교재별 요약
 
 #### CleanCode
-
-- part1
 
 | 매직 메서드                      | 예시 문                                                      | 컨셉            | 용례                                                         |
 | -------------------------------- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ |
