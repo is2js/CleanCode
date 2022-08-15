@@ -1,6 +1,7 @@
-def solution(): 
-    pass 
+import sys 
+ 
+input = sys.stdin.readline 
  
  
 if __name__ == '__main__': 
-    solution() 
+    pass 

@@ -31,9 +31,10 @@ copy .\*.py .\%CURRENT_FOLDER% /DHKYCSIL
 del .\*.py
 
 ::기존 Main.py 초기문장 적어 초기화
-echo def solution(): > .\main.py
-echo     pass >> .\main.py
+echo import sys > .\main.py
+echo. >> .\main.py
+echo input = sys.stdin.readline >> .\main.py
 echo. >> .\main.py
 echo. >> .\main.py
 echo if __name__ == '__main__': >> .\main.py
-echo     solution() >> .\main.py
+echo     pass >> .\main.py
