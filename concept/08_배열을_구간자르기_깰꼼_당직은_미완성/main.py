@@ -180,18 +180,18 @@ def permutation(prev_cnt, used_bit, prev_arr, prev_cnt_arr):
         permutation(prev_cnt + 1, used_bit | 1 << index, new_arr, new_cnt_arr)
 
     # -> 전체탐색할 거면 라이브러리
-    # print(list(permutations(persons, 3)))
+    # print(list(permutations(person_names, 3)))
     # 당직1명 뽑기 ->
 
     # x = 당직()
     # x.당직
     # x.부당직
     # x.부부당직
-    # elements = list(product(persons, class_))
+    # elements = list(product(person_names, class_))
     #
     # combinations(elements, 3)
     #
-    # print(list(product(persons, class_)))
+    # print(list(product(person_names, class_)))
 
 
 def print_당직():
@@ -201,7 +201,7 @@ def print_당직():
 
 
 if __name__ == '__main__':
-    # persons = ['주현', '현선', '성미', '재성', '석영']
+    # person_names = ['주현', '현선', '성미', '재성', '석영']
     persons = ['주현', '현선', '성미', '재성']
     answer = []
     # 당직_cnt = [0, 0, 0, 0, 0]
