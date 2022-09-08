@@ -7,6 +7,8 @@ if "%1" == "cc" (
     SET FIRST_FOLDER=concept
 ) else if "%1" == "sg" (
     SET FIRST_FOLDER=seulgi_python_trick
+) else if "%1" == "pn" (
+    SET FIRST_FOLDER=pythonic
 ) else (
     SET FIRST_FOLDER=%1
 )

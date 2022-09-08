@@ -35,7 +35,7 @@
 
 - 학습 종료 후 아래와 같은 커맨드를 통해 학습내용을 정리한다.
     ```shell
-    ./learn.bat cc[sg,cpt] 하위_chapter_폴더명
+    ./learn.bat cc[sg,cpt,pn] 하위_chapter_폴더명
     ```
   ![image-20220722010621957](https://raw.githubusercontent.com/is3js/screenshots/main/image-20220722010621957.png)
   

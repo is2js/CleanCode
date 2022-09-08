@@ -30,7 +30,7 @@ class 당직():
         return False
 
     def is_end_total(self):
-        return self.당직 >= 3 or self.부당직 >= 3 or self.부부당직 >= 3
+        return self.당직 >= 3 and self.부당직 >= 3 and self.부부당직 >= 3
 
     def __repr__(self):
         return f"{self.__class__.__name__}({self.name!r}, {self.당직!r}, {self.부당직!r}, {self.부부당직!r}, )"
@@ -46,17 +46,17 @@ def permutation(prev_cnt, used_bit, prev_name_arr, prev_당직_arr):
     global persons, answer, 당직cnt
     if prev_cnt == 3:
         # ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
-        # for cnt, 당직 in prev_당직_arr:
-        #     if 당직.is_end(cnt):
+        # for count, 당직 in prev_당직_arr:
+        #     if 당직.is_end(count):
         #         return
-        #     당직.increase_cnt(cnt)
+        #     당직.increase_cnt(count)
         # 위에코드는, 첫번째가 통과해서 increate했어도, 중간에서 탈락하는 경우
         # 첫번째를 카운팅하고 끝나버린다. -> 다 검사하고 다 증가 시켜야한다.
-        # for cnt, 당직 in prev_당직_arr:
-        #     if 당직.is_end(cnt):
+        # for count, 당직 in prev_당직_arr:
+        #     if 당직.is_end(count):
         #         return
-        # for cnt, 당직 in prev_당직_arr:
-        #     당직.increase_cnt(cnt)
+        # for count, 당직 in prev_당직_arr:
+        #     당직.increase_cnt(count)
         # print_당직()
         answer.append(list(prev_name_arr))
         return
@@ -77,6 +77,11 @@ def permutation(prev_cnt, used_bit, prev_name_arr, prev_당직_arr):
         new_당직_arr = prev_당직_arr + [(prev_cnt, 당직cnt[index])]
         print(new_당직_arr)
         permutation(prev_cnt + 1, used_bit | 1 << index, new_name_arr, new_당직_arr)
+
+
+def is_complete(당직스):
+    return all([당직.is_end_total() for 당직 in 당직스])
+
 
 
 def permutation2(prev_cnt, used_bit, prev_name_arr):
@@ -103,6 +108,7 @@ def permutation2(prev_cnt, used_bit, prev_name_arr):
         answer.append(list(prev_name_arr))
         return
 
+
     for index in range(len(persons)):
         if used_bit & 1 << index: continue
         # 현재 검사 이전에 직전까지 검사
@@ -117,6 +123,7 @@ def permutation2(prev_cnt, used_bit, prev_name_arr):
         # 첫번재 node없는 곳에서는 여러 root를 내리기전까진 작동안해야한다.
         # 당직cnt[index].increase_cnt(prev_cnt)
         permutation2(prev_cnt + 1, used_bit | 1 << index, new_name_arr)
+
     if prev_cnt == 1:
         print("=====================1개 root 끝==========================")
 

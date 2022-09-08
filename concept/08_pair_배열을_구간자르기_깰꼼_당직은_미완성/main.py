@@ -103,7 +103,7 @@ def solution():
     persons = ['주현', '현선', '성미', '재성', '석영']
     # -> 5P3  순서(당/부/부부)가 영향을 미치는 3가지 뽑기 -> 120가지가 한꺼번에 나온다...
     # ->      각 사람당 당직n번, 부당직m번, 부부당직l번만 하도록 짜는 방법은?
-    # permutation(cnt, used_bit, result)
+    # permutation(count, used_bit, result)
     answer = []
 
     def permutation(prev_cnt, used_bit, prev_arr):
